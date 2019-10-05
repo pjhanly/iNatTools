@@ -1,0 +1,17 @@
+Package: iNatTools
+Type: Package
+Title: iNaturalist Observation API Fetcher
+Version: 0.1.1
+Date: 2019-10-05
+Author: Patrick Hanly
+Maintainer: Patrick Hanly <hanlypat@msu.edu>
+Description: Core function for pulling observation data from the iNaturalist API.
+License: GPL-2
+Encoding: UTF-8
+Depends: 
+  httr,
+  jsonlite,
+Imports: 
+  httr,
+  jsonlite,
+RoxygenNote: 6.1.1
