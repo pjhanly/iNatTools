@@ -11,7 +11,9 @@ Encoding: UTF-8
 Depends: 
   httr,
   jsonlite,
+  dplyr
 Imports: 
   httr,
   jsonlite,
+  dplyr
 RoxygenNote: 6.1.1
