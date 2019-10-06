@@ -2,7 +2,7 @@
 % Please edit documentation in R/iNat.R
 \name{iNat}
 \alias{iNat}
-\title{iNataturalist Observation Import}
+\title{iNaturalist Observation Import}
 \usage{
 iNat(per_page = 200, order = "desc", order_by = "created_at",
   acc = NULL, captive = NULL, endemic = NULL, geo = NULL,
@@ -157,6 +157,8 @@ iNat(per_page = 200, order = "desc", order_by = "created_at",
 
 \item{not_in_project}{Fetch observations that are not in a given project ID}
 
+\item{not_matching_project_rules_for}{Fetch observations that do not match the rules of a project ID}
+
 \item{q}{String search of observation properties that can be combined with paramter search_on}
 
 \item{search_on}{Properties to search on based on parameter q string query: "names", "tags", "description", "place"}
@@ -176,8 +178,6 @@ iNat(per_page = 200, order = "desc", order_by = "created_at",
 \item{ttl}{Specify the Cache-Control HTTP header in seconds}
 
 \item{mappaple}{Fetch observations that can show on map tiles: "true" or "false"}
-
-\item{not_matching_projecT_rules_for}{Fetch observations that do not match the rules of a project ID}
 }
 \description{
 Core function for pulling observation data from the iNaturalist API
