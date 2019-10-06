@@ -1,4 +1,4 @@
-#' @title iNataturalist Observation Import
+#' @title iNaturalist Observation Import
 #'
 #' @description Core function for pulling observation data from the iNaturalist API
 #'
@@ -132,7 +132,7 @@
 #'
 #' @param not_in_project Fetch observations that are not in a given project ID
 #'
-#' @param not_matching_projecT_rules_for Fetch observations that do not match the rules of a project ID
+#' @param not_matching_project_rules_for Fetch observations that do not match the rules of a project ID
 #'
 #' @param q String search of observation properties that can be combined with paramter search_on
 #'
