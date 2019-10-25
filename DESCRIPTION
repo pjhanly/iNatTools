@@ -1,8 +1,8 @@
 Package: iNatTools
 Type: Package
 Title: iNaturalist Observation API Fetcher
-Version: 0.1.1
-Date: 2019-10-05
+Version: 0.1.2
+Date: 2019-10-24
 Author: Patrick Hanly
 Maintainer: Patrick Hanly <hanlypat@msu.edu>
 Description: Core function for pulling observation data from the iNaturalist API.
@@ -11,9 +11,15 @@ Encoding: UTF-8
 Depends: 
   httr,
   jsonlite,
-  dplyr
+  dplyr,
+  data.table,
+  stringr,
+  geosphere
 Imports: 
   httr,
   jsonlite,
-  dplyr
+  dplyr,
+  data.table,
+  stringr,
+  geosphere
 RoxygenNote: 6.1.1
