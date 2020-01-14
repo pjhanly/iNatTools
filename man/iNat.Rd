@@ -103,7 +103,7 @@ iNat(per_page = 200, order = "desc", order_by = "created_at",
 
 \item{acc_below}{Positional accuracy must be below this value (meters)}
 
-\item{d1}{Fetch observations created on or after a specific date: "YYYY-MM-DD"}
+\item{d1}{Fetch observations on or after a specific date: "YYYY-MM-DD"}
 
 \item{d2}{Fetch observations on or before a specific date: "YYYY-MM-DD"}
 

@@ -17,7 +17,7 @@ sampling_effort(iNatdf = NULL, effort_time_lim = 30,
 \item{max_m_per_min}{Max allowable travel distance per minute to be included in sampling distance effort calculation}
 }
 \description{
-Core function for pulling observation data from the iNaturalist API
+Function for generating sampling effort in time and distance from an iNaturalist API pull divided into major taxonomic groups
 }
 \examples{
 
