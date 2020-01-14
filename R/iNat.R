@@ -78,7 +78,7 @@
 #'
 #' @param acc_below Positional accuracy must be below this value (meters)
 #'
-#' @param d1 Fetch observations created on or after a specific date: "YYYY-MM-DD"
+#' @param d1 Fetch observations on or after a specific date: "YYYY-MM-DD"
 #'
 #' @param d2 Fetch observations on or before a specific date: "YYYY-MM-DD"
 #'
