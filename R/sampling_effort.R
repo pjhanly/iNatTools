@@ -53,7 +53,7 @@ sampling_effort <- function(iNatdf = NULL, effort_time_lim = 30, max_geo_jump = 
         samp.dists <- rep(0,(length(df2.temp[,2])-1))
         for (i in 1:(length(df2.temp[,2])-1)){
           samp.diffs[i] <- -difftime(df2.temp[i,2], df2.temp[i+1,2], units = "mins")
-          samp.dists[i] <- distGeo(iNatdf[df$uuid==df2.temp[i,4],]$geojson.coordinates[[1]],iNatdf[df$uuid==df2.temp[i+1,4],]$geojson.coordinates[[1]])
+          samp.dists[i] <- distGeo(iNatdf[iNatdf$uuid==df2.temp[i,4],]$geojson.coordinates[[1]],iNatdf[iNatdf$uuid==df2.temp[i+1,4],]$geojson.coordinates[[1]])
           if (sum(samp.diffs<=30) > 0) {
             samp.effort[j,2] <- sum(samp.diffs<=30) + 1
           }
