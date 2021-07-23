@@ -2,3 +2,4 @@
 
 export(iNat)
 export(sampling_effort)
+export(iNat_sc)
