@@ -218,7 +218,6 @@ iNat_sc <- function(per_page = 200, order = "desc", order_by = "created_at", acc
     iNatDF <- resDF$results
 	}
 
-  iNatDF <- resDF$results
 
 return(iNatDF)
 
