@@ -212,7 +212,7 @@ iNat_sc <- function(per_page = 200, order = "desc", order_by = "created_at", acc
     for (i in 2:(ceiling(resDF$total_results/resDF$per_page))) {
       res.t <- GET(api, query=c(fetch,list(page=i)))
       resDF.t <- fromJSON(httr::content(res.t, as = "text"),flatten=TRUE)
-      resDF$results <- bind_rows(resDF$results,resDF.t$results)
+      resDF$results <- bind_rows(resDF$results)
       Sys.sleep(1)
     
     iNatDF <- resDF$results
